@@ -27,7 +27,7 @@ int main() {
             do {
                 printf("Ingrese los puntos por los cuales el peleador %s gano: ", nombres[cont]);
                 if (scanf("%d", &puntos_ingresados) != 1 || puntos_ingresados < 0) {
-                    printf("Entrada inválida, ingrese un numero positivo.\n");
+                    printf("Entrada invalida, ingrese un numero positivo.\n");
                     while (getchar() != '\n');  
                 }
             } while (puntos_ingresados < 0);
@@ -36,7 +36,7 @@ int main() {
             do {
                 printf("Ingrese los puntos por los cuales el peleador %s gano: ", nombres[cont + 1]);
                 if (scanf("%d", &puntos_ingresados) != 1 || puntos_ingresados < 0) {
-                    printf("Entrada inválida, ingrese un numero positivo.\n");
+                    printf("Entrada invalida, ingrese un numero positivo.\n");
                     while (getchar() != '\n');  
                 }
             } while (puntos_ingresados < 0);
@@ -98,7 +98,7 @@ int main() {
         do {
             printf("Ingrese los puntos por los cuales el peleador %s gano: ", primero);
             if (scanf("%d", &puntos_finalista) != 1 || puntos_finalista < 0) {
-                printf("Entrada inválida, ingrese un numero positivo.\n");
+                printf("Entrada invalida, ingrese un numero positivo.\n");
                 while (getchar() != '\n');  
             }
         } while (puntos_finalista < 0);
@@ -107,7 +107,7 @@ int main() {
         do {
             printf("Ingrese los puntos por los cuales el peleador %s gano: ", segundo);
             if (scanf("%d", &puntos_finalista) != 1 || puntos_finalista < 0) {
-                printf("Entrada inválida, ingrese un numero positivo.\n");
+                printf("Entrada invalida, ingrese un numero positivo.\n");
                 while (getchar() != '\n');  
             }
         } while (puntos_finalista < 0);
